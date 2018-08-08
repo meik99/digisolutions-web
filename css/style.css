@@ -1,0 +1,142 @@
+html {
+  height: 100%; }
+
+body {
+  margin-left: 20%;
+  margin-right: 20%;
+  height: 100%; }
+
+@media screen and (max-width: 1200px) {
+  body {
+    margin-left: 0;
+    margin-right: 0; } }
+main {
+  margin-left: 5%; }
+
+.drawer {
+  width: 48px;
+  height: 100%;
+  background-color: black;
+  float: left; }
+
+.drawer-expanded {
+  width: 20%; }
+
+@media screen and (max-width: 700px) {
+  .drawer-expanded {
+    width: 50%; } }
+.drawer-toggle {
+  background-color: black;
+  width: 100%;
+  border: none;
+  padding-top: 5px;
+  padding-bottom: 5px; }
+
+.drawer-icon {
+  color: white; }
+
+.drawer-links {
+  margin-top: 225px; }
+
+.drawer-links a {
+  color: white; }
+
+.drawer-links a:hover,
+.drawer-link:hover {
+  text-decoration: none;
+  background-color: #323232; }
+
+.drawer-link {
+  visibility: hidden;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 1px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #282828; }
+
+.logo {
+  width: 500px;
+  padding-top: 5px; }
+
+@media screen and (max-width: 800px) {
+  .logo {
+    width: 300px;
+    padding-top: 5px; } }
+@media screen and (max-width: 400px) {
+  .logo {
+    width: 150px;
+    padding-top: 5px; } }
+.row {
+  padding-top: 10px; }
+
+.btn {
+  background-color: white;
+  color: orange;
+  border: 1px solid orange; }
+
+.btn:hover {
+  background-color: orange;
+  color: white; }
+
+.btn:active,
+.btn:focus {
+  background-color: darkorange;
+  color: white; }
+
+.special-offers {
+  margin-top: 10px;
+  padding: 10px;
+  box-shadow: 0px 0px 4px 4px orange;
+  text-align: justify;
+  height: 100%; }
+
+.special-offers h1 {
+  color: darkorange;
+  text-align: left; }
+
+.special-offers h2,
+.special-offers h3,
+.special-offers h4,
+.special-offers h5 {
+  text-align: left; }
+
+.special-offers-image {
+  width: 100%; }
+
+.special-offers .btn {
+  background-color: white;
+  color: darkorange;
+  border: 1px solid darkorange; }
+
+.special-offers .btn:hover {
+  background-color: darkorange;
+  color: white; }
+
+.special-offers .btn:active,
+.special-offers .btn:focus {
+  background-color: orange;
+  color: white; }
+
+.details {
+  float: right;
+  font-size: 12px; }
+
+.details-key,
+.details-value {
+  float: right; }
+
+.details-key {
+  text-align: right; }
+
+.details-value {
+  text-align: left;
+  padding-left: 10px; }
+
+.nowrap {
+  white-space: nowrap; }
+
+.colored-text {
+  color: darkorange; }
+
+/*# sourceMappingURL=style.css.map */
