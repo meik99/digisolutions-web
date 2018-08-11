@@ -7,22 +7,46 @@ body {
 .container {
   height: 100%; }
 
+.font-small {
+  font-size: 12px; }
+
+.drawer-row {
+  padding-top: 0;
+  margin-top: 0; }
+
+h1, h2,
+h3, h4,
+h4, h5 {
+  padding-top: 10px; }
+
 .drawer {
   width: 48px;
   height: 100%;
   background-color: black;
-  float: left; }
+  float: left;
+  margin-left: 20%; }
+
+.page-content {
+  float: left;
+  width: 65%; }
 
 .drawer-expanded {
-  width: 100%; }
+  width: 15%;
+  z-index: 1;
+  position: relative; }
 
-.z-to-front {
-  z-index: 100;
-  position: absolute; }
+@media screen and (max-width: 900px) {
+  .drawer {
+    margin-left: 0; }
 
+  .page-content {
+    width: 80%; }
+
+  .drawer-expanded {
+    width: 20%; } }
 @media screen and (max-width: 700px) {
   .drawer-expanded {
-    width: 50%; } }
+    width: 100%; } }
 .drawer-toggle {
   background-color: black;
   width: 100%;
@@ -67,28 +91,28 @@ body {
     padding-top: 5px; } }
 .btn {
   background-color: white;
-  color: orange;
-  border: 1px solid orange; }
+  color: #ffa633;
+  border: 1px solid #ffa633; }
 
 .btn:hover {
-  background-color: orange;
+  background-color: #ffa633;
   color: white; }
 
 .btn:active,
 .btn:focus {
-  background-color: darkorange;
+  background-color: #ff9926;
   color: white; }
 
 .special-offers {
   margin-top: 10px;
   padding: 10px;
-  box-shadow: 0px 0px 4px 4px orange;
+  box-shadow: 0px 0px 4px 4px #ffa633;
   text-align: justify;
   height: 100%; }
 
 .special-offers h1,
 .special-offers h2 {
-  color: darkorange;
+  color: #ff9926;
   text-align: left; }
 
 .special-offers h3,
@@ -101,16 +125,16 @@ body {
 
 .special-offers .btn {
   background-color: white;
-  color: darkorange;
-  border: 1px solid darkorange; }
+  color: #ff9926;
+  border: 1px solid #ff9926; }
 
 .special-offers .btn:hover {
-  background-color: darkorange;
+  background-color: #ff9926;
   color: white; }
 
 .special-offers .btn:active,
 .special-offers .btn:focus {
-  background-color: orange;
+  background-color: #ffa633;
   color: white; }
 
 .details {
@@ -131,7 +155,13 @@ body {
 .nowrap {
   white-space: nowrap; }
 
-.colored-text {
-  color: darkorange; }
+.colored-text-darkorange {
+  color: #ff9926; }
+
+.colored-text-red {
+  color: #b80016; }
+
+.text-line-through {
+  text-decoration: line-through; }
 
 /*# sourceMappingURL=style.css.map */

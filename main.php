@@ -50,17 +50,17 @@
         </div>
         <div class="row">
             <div class="col">
-                <h4>Dokumentenscan</h4>
+                <h4>Dokumenten- und Fotoscan</h4>
             </div>
         </div>
         <div class="row">
             <div class="col">
-                Scan von Dokumenten bis zu DIN A3 und Diascan.
+                Scan von Dokumenten bis zu DIN A3 sowie Fotos und Dias.
             </div>
         </div>
         <div class="row">
             <div class="col">
-                <a class="btn" href="dokumentenscan.php">Mehr</a>
+                <a class="btn" href="/?page=dokumentenscan.php">Mehr</a>
             </div>
         </div>
         <hr>
@@ -81,7 +81,22 @@
         </div>
         <div class="row">
             <div class="col">
-                <a class="btn" href="heimnetzwerke.php">Mehr</a>
+                <a class="btn" href="/?page=heimnetzwerke.php">Mehr</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h4>Firmennetzwerke</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                Wir beutreuen auch gerne Firmennetzwerke oder vermitteln dir richtigen Systempartner.
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <a class="btn" href="/?page=firmennetzwerke.php">Mehr</a>
             </div>
         </div>
         <hr>
@@ -108,7 +123,7 @@
         </div>
         <div class="row">
             <div class="col">
-                Schreib uns einfach unter <span class="nowrap"> .mayrhofer@digisolutions.at</span>
+                Schreib uns einfach unter <span class="nowrap">detlef.mayrhofer@digisolutions.at</span>
             </div>
         </div>
     </div>
@@ -136,7 +151,7 @@
         </div>
         <div class="row">
             <div class="col">
-                <a class="btn" href="tontraeger.php">Zu den Angeboten</a>
+                <a class="btn" href="/?page=tontraeger.php">Zu den Angeboten</a>
             </div>
         </div>
     </div>

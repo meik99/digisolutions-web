@@ -1,6 +1,6 @@
-$color-orange: orange;
-$color-darkorange: darkorange;
-$color-red: red;
+$color-orange: rgb(255, 166, 51);
+$color-darkorange: rgb(255, 153, 38);
+$color-red: rgb(184, 0, 22);
 $color-darkgray: rgb(40, 40, 40);
 $color-gray: rgb(50, 50, 50);
 
@@ -16,27 +16,58 @@ body {
   height: 100%;
 }
 
+.font-small{
+  font-size: 12px;
+}
+
+.drawer-row{
+  padding-top: 0;
+  margin-top: 0;
+}
+
+h1, h2,
+h3, h4,
+h4, h5{
+  padding-top: 10px;
+}
+
 .drawer {
   width: 48px;
   height: 100%;
   background-color: black;
   float: left;
+  margin-left: 20%;
+}
+
+.page-content{
+  float: left;
+  width: 65%;
 }
 
 .drawer-expanded {
-  width: 100%;
+  width: 15%;
+  z-index: 1;
+  position: relative;
 }
 
-.z-to-front{
-  z-index: 100;
-  position: absolute;
+@media screen and (max-width: 900px){
+  .drawer{
+    margin-left: 0;
+  }
+  .page-content{
+    width: 80%;
+  }
+  .drawer-expanded{
+    width: 20%;
+  }
 }
 
 @media screen and (max-width: 700px){
-  .drawer-expanded {
-    width: 50%;
+  .drawer-expanded{
+    width: 100%;
   }
 }
+
 
 .drawer-toggle {
   background-color: black;
@@ -174,6 +205,14 @@ body {
   white-space: nowrap;
 }
 
-.colored-text{
+.colored-text-darkorange{
   color: $color-darkorange;
+}
+
+.colored-text-red{
+  color: $color-red;
+}
+
+.text-line-through{
+  text-decoration: line-through;
 }

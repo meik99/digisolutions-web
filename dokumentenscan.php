@@ -1,19 +1,23 @@
 <div class="row">
-    <div class="col-12">
-        <h1>Tonträger</h1>
+    <div class="col-12 text-justify">
+        <h1>Dokumenten- und Fotoscan</h1>
     </div>
 </div>
-<hr>
-<div class="row text-justify">
-    <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8">
-        Nicht alles was neu ist, ist auch immer besser. Wer möchte nicht seine alten Schätze zu neuem Glanz
-        verhelfen? Wir digitalisieren deine alten Platten und Videos um sie vor weiteren Abnützungen und Schäden zu
-        schützen.
+<div class="row">
+    <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8 text-justify">
+        Wir scannen sowohl deine Dokumente bis zu DIN A3 als auch
+        deine Fotos und Dias für die nächste Familienfeier.
     </div>
 </div>
-<div class="row text-justify">
+<div class="row">
+    <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8 text-justify">
+        Bitte beachte dass wir unseren Scandienst für Kleinmengen (von 3-30 Stück) anbieten!
+        Bei größeren Mengen frage uns einfach nach einem „Paketpreis“.
+    </div>
+</div>
+<div class="row">
     <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8">
-        Wir digitalisieren dir derzeit folgende Formate* :
+        Wir digitalisieren dir derzeit folgende Formate*:
     </div>
 </div>
 <div class="row">
@@ -21,64 +25,73 @@
         <ul class="list-group list-group-flush">
             <li class="list-group-item">
                 <div class="row">
-                    <div class="col-6"></div>
-                    <div class="col-3 text-right">
+                    <div class="offset-6 col-3 text-right">
                         Normalpreis
                     </div>
                     <div class="col-3 text-right colored-text-red">
-                        Angebotspreis
+                        Aktionspreis
                     </div>
                 </div>
             </li>
             <li class="list-group-item">
                 <div class="row">
                     <div class="col-6 text-left">
-                        Vinyl (Single oder LP) pro Seite inkl. bedruckter <span class="nowrap">CD-R</span>:
+                        Papierdokumente, eine Seite bis DIN A4
                     </div>
                     <div class="col-3 text-right text-line-through">
-                        EUR 3,00
+                        EUR 0,50
                     </div>
                     <div class="col-3 text-right colored-text-red">
-                        EUR 1,50
+                        EUR 0,25
                     </div>
                 </div>
             </li>
             <li class="list-group-item">
                 <div class="row">
                     <div class="col-6 text-left">
-                        Einzelsongs ab 10 Stück inkl. <span class="nowrap">CD-R</span>:
+                        Papierdokumente, eine Seite von A4 bis A3
                     </div>
                     <div class="col-3 text-right text-line-through">
-                        EUR 2,00 pro Song
+                        EUR 1,00
                     </div>
                     <div class="col-3 text-right colored-text-red">
-                        EUR 1,00 pro Song
+                        EUR 0,50
                     </div>
                 </div>
             </li>
             <li class="list-group-item">
                 <div class="row">
                     <div class="col-6 text-left">
-                        VHS-Kassette inkl. bedruckter DVD-R:
+                        Fotos und Dias (Standardgrößen)
                     </div>
                     <div class="col-3 text-right text-line-through">
-                        EUR 11,00
+                        EUR 1,00
                     </div>
                     <div class="col-3 text-right colored-text-red">
-                        EUR 5,50
+                        EUR 0,50
                     </div>
                 </div>
             </li>
             <li class="list-group-item">
                 <div class="row">
                     <div class="col-6 text-left">
-                        A3-Scan inkl. CD-R:
+                        Download der gescannten Dateien
+                    </div>
+                    <div class="col-3 text-right">
+                        Kostenlos
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item">
+                <div class="row">
+                    <div class="col-6 text-left">
+                        Kopieren auf Datenträger
                     </div>
                     <div class="col-3 text-right text-line-through">
-                        EUR 3,00
+                        EUR 1,00 pro <span class="nowrap">DVD-R</span>
                     </div>
                     <div class="col-3 text-right colored-text-red">
-                        EUR 1,50
+                        EUR 0,50 pro <span class="nowrap">DVD-R</span>
                     </div>
                 </div>
             </li>

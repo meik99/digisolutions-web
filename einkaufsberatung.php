@@ -22,7 +22,7 @@
     <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8">
         Wir bieten dir eine Neuinstallation von deinem Betriebsystem inkl. passender Treiber an.
         Falls gewünscht mit kostenlosem Virenschutz (Freeware) und Office-Programmen (z.B. LibreOffice)
-        um ehrliche <span class="colored-text nowrap"><b>EUR 39,00</b></span>
+        um ehrliche <span class="colored-text-darkorange nowrap"><b>EUR 39,00</b></span>
     </div>
 </div>
 <div class="row">
