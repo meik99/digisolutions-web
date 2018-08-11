@@ -9,27 +9,11 @@ html {
 }
 
 body {
-  margin-left: 20%;
-  margin-right: 20%;
   height: 100%;
 }
 
-@media screen and (max-width: 1200px){
-  body {
-    margin-left: 0;
-    margin-right: 0;
-  }
-}
-
-//@media screen and (max-width: 900px){
-//  body {
-//    margin-left: 10%;
-//    margin-right: 10%;
-//  }
-//}
-
-main{
-  margin-left: 5%;
+.container{
+  height: 100%;
 }
 
 .drawer {
@@ -40,7 +24,12 @@ main{
 }
 
 .drawer-expanded {
-  width: 20%;
+  width: 100%;
+}
+
+.z-to-front{
+  z-index: 100;
+  position: absolute;
 }
 
 @media screen and (max-width: 700px){
@@ -106,10 +95,6 @@ main{
   }
 }
 
-.row{
-  padding-top: 10px;
-}
-
 .btn {
   background-color: white;
   color: $color-orange;
@@ -135,12 +120,12 @@ main{
   height: 100%;
 }
 
-.special-offers h1{
-  color: $color-darkorange;
-  text-align: left;
+.special-offers h1,
+.special-offers h2 {
+    color: $color-darkorange;
+    text-align: left;
 }
 
-.special-offers h2,
 .special-offers h3,
 .special-offers h4,
 .special-offers h5{
