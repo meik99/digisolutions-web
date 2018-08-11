@@ -11,94 +11,32 @@
                 <h2>IT-Hilfe</h2>
             </div>
         </div>
-        <div class="row">
-            <div class="col">
-                <h4>Einkaufsberatung und Support</h4>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col text-justify">
-                Beratung beim Einkauf von PCs, Hard- und Software, sowie Hilfe beim Neuinstallieren von
-                Windows und anderen Softwareprodukten.
-            </div>
-        </div>
-        <div class="row">
-            <div class="col">
-                <a class="btn" href="/?page=einkaufsberatung.php">Mehr</a>
-            </div>
-        </div>
+        <?php
+            include ("services/ITHilfe/service_einkaufsberatung.php");
+        ?>
         <hr>
         <div class="row">
             <div class="col">
                 <h2>Digitalisierungen</h2>
             </div>
         </div>
-        <div class="row">
-            <div class="col">
-                <h4>Tonträger</h4>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col">
-                Digitalisierung von VHS, Vinyls und vielem mehr.
-            </div>
-        </div>
-        <div class="row">
-            <div class="col">
-                <a class="btn" href="/?page=tontraeger.php">Mehr</a>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col">
-                <h4>Dokumenten- und Fotoscan</h4>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col">
-                Scan von Dokumenten bis zu DIN A3 sowie Fotos und Dias.
-            </div>
-        </div>
-        <div class="row">
-            <div class="col">
-                <a class="btn" href="/?page=dokumentenscan.php">Mehr</a>
-            </div>
-        </div>
+        <?php
+            include ("services/Digitalisierungen/service_tontraeger.php");
+            include ("services/Digitalisierungen/service_dokumentenscan.php");
+        ?>
+
         <hr>
         <div class="row">
             <div class="col">
                 <h2>Netzwerktechnik</h2>
             </div>
         </div>
-        <div class="row">
-            <div class="col">
-                <h4>Heimnetzwerke</h4>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col">
-                Heimnetzwerke erstellen und konfigurieren.
-            </div>
-        </div>
-        <div class="row">
-            <div class="col">
-                <a class="btn" href="/?page=heimnetzwerke.php">Mehr</a>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col">
-                <h4>Firmennetzwerke</h4>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col">
-                Wir beutreuen auch gerne Firmennetzwerke oder vermitteln dir richtigen Systempartner.
-            </div>
-        </div>
-        <div class="row">
-            <div class="col">
-                <a class="btn" href="/?page=firmennetzwerke.php">Mehr</a>
-            </div>
-        </div>
+
+        <?php
+            include ("services/Netzwerktechnik/service_heimnetzwerke.php");
+            include ("services/Netzwerktechnik/service_firmennetzwerke.php");
+        ?>
+
         <hr>
         <div class="row">
             <div class="col">
@@ -112,7 +50,7 @@
         </div>
         <div class="row">
             <div class="col">
-                <a class="btn" href="schulungen.php">Mehr</a>
+                <a class="btn" href="/?page=schulungen.php">Mehr</a>
             </div>
         </div>
         <hr>

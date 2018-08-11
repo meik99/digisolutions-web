@@ -16,6 +16,14 @@ body {
   height: 100%;
 }
 
+.row{
+  padding-top: 10px;
+}
+
+.no-padding-top{
+  padding-top: 0;
+}
+
 .font-small{
   font-size: 12px;
 }
@@ -67,7 +75,6 @@ h4, h5{
     width: 100%;
   }
 }
-
 
 .drawer-toggle {
   background-color: black;
