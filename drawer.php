@@ -22,19 +22,49 @@
             </div>
         </a>
 
-        <a href="heimnetzwerke.php">
+        <a href="/?page=tontraeger.php">
+            <div class="drawer-link">
+                Tonträger
+            </div>
+        </a>
+
+        <a href="/?page=dokumentenscan.php">
+            <div class="drawer-link">
+                Dokumentenscan
+            </div>
+        </a>
+
+        <a href="/?page=heimnetzwerke.php">
             <div class="drawer-link">
                 Heimnetzwerke
             </div>
         </a>
 
-        <a href="schulungen.php">
+        <a href="/?page=firmennetzwerke.php">
             <div class="drawer-link">
-                Schulungen
+                Firmennetzwerke
             </div>
         </a>
 
-        <a href="impressum.php">
+        <a href="/?page=privatschulung.php">
+            <div class="drawer-link">
+                Privatschulung
+            </div>
+        </a>
+
+        <a href="/?page=gruppenschulung.php">
+            <div class="drawer-link">
+                Gruppenschulung
+            </div>
+        </a>
+
+        <a href="/?page=uebermich.php">
+            <div class="drawer-link">
+                Ich über mich
+            </div>
+        </a>
+
+        <a href="/?page=impressum.php">
             <div class="drawer-link">
                 Impressum
             </div>
