@@ -89,7 +89,7 @@ h4, h5{
 }
 
 .drawer-links{
-  margin-top: 225px;
+  //margin-top: 225px;
 }
 
 .drawer-links a{
@@ -106,12 +106,12 @@ h4, h5{
   visibility: hidden;
 
   font-size: 20px;
-  text-align: center;
+  text-align: left;
   margin-top: 1px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding: 5px 20px 5px 0px;
 
-  background-color: $color-darkgray;
+  background-color: black;
+  border-bottom: 1px solid $color-darkgray;
 }
 
 .logo{

@@ -63,9 +63,6 @@ h4, h5 {
 .drawer-icon {
   color: white; }
 
-.drawer-links {
-  margin-top: 225px; }
-
 .drawer-links a {
   color: white; }
 
@@ -77,11 +74,11 @@ h4, h5 {
 .drawer-link {
   visibility: hidden;
   font-size: 20px;
-  text-align: center;
+  text-align: left;
   margin-top: 1px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  background-color: #282828; }
+  padding: 5px 20px 5px 0px;
+  background-color: black;
+  border-bottom: 1px solid #282828; }
 
 .logo {
   width: 500px;

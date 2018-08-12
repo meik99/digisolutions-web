@@ -4,21 +4,21 @@
     </button>
 
     <div class="drawer-links" id="drawer-links">
-        <a href="index.php">
+        <a href="/">
             <div class="drawer-link">
                 Startseite
             </div>
         </a>
 
-        <a href="tontraeger.php">
+        <a href="/?page=einkaufsberatung.php">
             <div class="drawer-link">
-                Digitalisierung
+                Einkaufsberatung
             </div>
         </a>
 
-        <a href="einkaufsberatung.php">
+        <a href="/?page=fernwartung.php">
             <div class="drawer-link">
-                Beratung
+                Fernwartung
             </div>
         </a>
 
@@ -57,7 +57,7 @@
 
             if (visibility === "hidden") {
                 $(this).css("visibility", "visible");
-                $(this).width(drawerMenu.width());
+                // $(this).width(drawerMenu.width());
             } else {
                 $(this).css("visibility", "hidden")
             }

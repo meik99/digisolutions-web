@@ -3,6 +3,7 @@
         <h1>Schulungen für Gruppen und Firmen</h1>
     </div>
 </div>
+<hr>
 <div class="row text-justify">
     <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8">
         Schulungen für dich und deine Mitarbeiter für Windows und Office-Produkten sind für uns kein Problem.

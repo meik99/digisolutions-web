@@ -2,22 +2,23 @@
     <div class="col-12 col-sm-12 col-md-8 col-lg-9 col-xl-9">
         <div class="row">
             <div class="col">
-                <h1>Serviceleistungen</h1>
+                <h1 class="colored-text-darkorange">Serviceleistungen</h1>
             </div>
         </div>
         <hr>
         <div class="row">
             <div class="col">
-                <h2>IT-Hilfe</h2>
+                <h2 class="colored-text-red">IT-Hilfe</h2>
             </div>
         </div>
         <?php
             include ("services/ITHilfe/service_einkaufsberatung.php");
+            include ("services/ITHilfe/serivce_fernwartung.php");
         ?>
         <hr>
         <div class="row">
             <div class="col">
-                <h2>Digitalisierungen</h2>
+                <h2 class="colored-text-red">Digitalisierungen</h2>
             </div>
         </div>
         <?php
@@ -28,7 +29,7 @@
         <hr>
         <div class="row">
             <div class="col">
-                <h2>Netzwerktechnik</h2>
+                <h2 class="colored-text-red">Netzwerktechnik</h2>
             </div>
         </div>
 
@@ -40,7 +41,7 @@
         <hr>
         <div class="row">
             <div class="col">
-                <h2>Schulungen</h2>
+                <h2 class="colored-text-red">Schulungen</h2>
             </div>
         </div>
         <?php
@@ -50,7 +51,7 @@
         <hr>
         <div class="row">
             <div class="col">
-                <h2>Und vieles mehr...</h2>
+                <h2 class="colored-text-red">Und vieles mehr...</h2>
             </div>
         </div>
         <div class="row">

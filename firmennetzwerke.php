@@ -1,11 +1,3 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: michael
- * Date: 8/12/18
- * Time: 1:01 AM
- */
-?>
 <div class="row">
     <div class="col-12">
         <h1>Firmennetzwerke</h1>
@@ -46,10 +38,10 @@
             <li class="list-group-item">
                 <div class="row">
                     <div class="col-8 text-left">
-                        Stundenpreis für Firmenkunden* exkl. Fahrtkosten
+                        Preis für Firmenkunden* exkl. Fahrtkosten
                     </div>
                     <div class="col-4 text-right">
-                        EUR 45,00
+                        EUR 45,00 pro Stunde
                     </div>
                 </div>
             </li>
