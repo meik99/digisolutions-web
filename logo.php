@@ -1,6 +1,6 @@
 <div class="row">
     <div class="col" align="right">
-        <a href="/"><img src="images/ds_logo.jpg" class="logo"/></a>
+        <a href="index.php"><img src="images/ds_logo.jpg" class="logo"/></a>
     </div>
 </div>
 <div class="row no-padding-top">

@@ -10,6 +10,6 @@
 </div>
 <div class="row">
     <div class="col-12">
-        <a class="btn" href="/?page=fernwartung.php">Mehr</a>
+        <a class="btn" href="index.php?page=fernwartung.php">Mehr</a>
     </div>
 </div>

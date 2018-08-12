@@ -53,6 +53,6 @@
 </div>
 <div class="row text-justify">
     <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8">
-        <b>*Firmenkunden beachten bitte die Preise <a class="colored-text-darkorange" href="/?page=firmennetzwerke.php">hier</a></b>
+        <b>*Firmenkunden beachten bitte die Preise <a class="colored-text-darkorange" href="index.php?page=firmennetzwerke.php">hier</a></b>
     </div>
 </div>

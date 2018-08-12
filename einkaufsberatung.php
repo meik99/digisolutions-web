@@ -85,13 +85,9 @@
                     </b>
                 </div>
             </li>
-            <li class="list-group-item">
-                <div class="row text-jusitfy">
-                    <div class="col-12" style="font-size: 12px">
-                        Hinweis: Umsatzsteuerbefreit – Kleinunternehmer gem. § 6 Abs. 1 Z 27 UStG
-                    </div>
-                </div>
-            </li>
+            <?php
+                include ("hinweis_umsatzsteuer.php");
+            ?>
         </ul>
     </div>
 </div>

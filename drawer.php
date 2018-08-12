@@ -4,67 +4,67 @@
     </button>
 
     <div class="drawer-links" id="drawer-links">
-        <a href="/">
+        <a href="index.php">
             <div class="drawer-link">
                 Startseite
             </div>
         </a>
 
-        <a href="/?page=einkaufsberatung.php">
+        <a href="index.php?page=einkaufsberatung.php">
             <div class="drawer-link">
                 Einkaufsberatung
             </div>
         </a>
 
-        <a href="/?page=fernwartung.php">
+        <a href="index.php?page=fernwartung.php">
             <div class="drawer-link">
                 Fernwartung
             </div>
         </a>
 
-        <a href="/?page=tontraeger.php">
+        <a href="index.php?page=tontraeger.php">
             <div class="drawer-link">
                 Tonträger
             </div>
         </a>
 
-        <a href="/?page=dokumentenscan.php">
+        <a href="index.php?page=dokumentenscan.php">
             <div class="drawer-link">
                 Dokumentenscan
             </div>
         </a>
 
-        <a href="/?page=heimnetzwerke.php">
+        <a href="index.php?page=heimnetzwerke.php">
             <div class="drawer-link">
                 Heimnetzwerke
             </div>
         </a>
 
-        <a href="/?page=firmennetzwerke.php">
+        <a href="index.php?page=firmennetzwerke.php">
             <div class="drawer-link">
                 Firmennetzwerke
             </div>
         </a>
 
-        <a href="/?page=privatschulung.php">
+        <a href="index.php?page=privatschulung.php">
             <div class="drawer-link">
                 Privatschulung
             </div>
         </a>
 
-        <a href="/?page=gruppenschulung.php">
+        <a href="index.php?page=gruppenschulung.php">
             <div class="drawer-link">
                 Gruppenschulung
             </div>
         </a>
 
-        <a href="/?page=uebermich.php">
+        <a href="index.php?page=uebermich.php">
             <div class="drawer-link">
                 Ich über mich
             </div>
         </a>
 
-        <a href="/?page=impressum.php">
+        <a href="index.php?page=impressum.php">
             <div class="drawer-link">
                 Impressum
             </div>

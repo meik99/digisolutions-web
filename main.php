@@ -84,7 +84,7 @@
         </div>
         <div class="row">
             <div class="col">
-                <a class="btn" href="/?page=tontraeger.php">Zu den Angeboten</a>
+                <a class="btn" href="index.php?page=tontraeger.php">Zu den Angeboten</a>
             </div>
         </div>
     </div>

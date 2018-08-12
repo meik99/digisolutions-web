@@ -11,6 +11,6 @@
 </div>
 <div class="row">
     <div class="col">
-        <a class="btn" href="/?page=heimnetzwerke.php">Mehr</a>
+        <a class="btn" href="index.php?page=heimnetzwerke.php">Mehr</a>
     </div>
 </div>

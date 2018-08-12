@@ -10,6 +10,6 @@
 </div>
 <div class="row">
     <div class="col">
-        <a class="btn" href="/?page=gruppenschulung.php">Mehr</a>
+        <a class="btn" href="index.php?page=gruppenschulung.php">Mehr</a>
     </div>
 </div>

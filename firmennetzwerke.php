@@ -53,6 +53,6 @@
 </div>
 <div class="row text-justify">
     <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8">
-        <b>*Privatkunden beachten bitte die Preise <a class="colored-text-darkorange" href="/?page=heimnetzwerke.php">hier</a></b>
+        <b>*Privatkunden beachten bitte die Preise <a class="colored-text-darkorange" href="index.php?page=heimnetzwerke.php">hier</a></b>
     </div>
 </div>
