@@ -43,16 +43,10 @@
                 <h2>Schulungen</h2>
             </div>
         </div>
-        <div class="row">
-            <div class="col">
-                Schulungen für die Verwendung von PCs und Office-Software.
-            </div>
-        </div>
-        <div class="row">
-            <div class="col">
-                <a class="btn" href="/?page=schulungen.php">Mehr</a>
-            </div>
-        </div>
+        <?php
+            include ("services/Schulungen/service_schulungprivat.php");
+            include ("services/Schulungen/service_schulungfirma.php");
+        ?>
         <hr>
         <div class="row">
             <div class="col">

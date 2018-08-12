@@ -65,7 +65,10 @@
     }
 
     function resizeDrawer(id) {
-        $("#drawer-menu").height($("#" + id).height());
+        var itemHeight = $("#" + id).height();
+        var bodyHeight = $("body").height();
+        $("#drawer-menu").height(itemHeight > bodyHeight ? itemHeight : bodyHeight);
+
         $("#drawer-links").width($("#drawer-column").width());
     }
 </script>
